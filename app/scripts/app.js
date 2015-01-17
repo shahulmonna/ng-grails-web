@@ -9,7 +9,7 @@
  * Main module of the application.
  */
 angular
-  .module('ngGrailsWebApp', [
+  .module('ngGrailsWebApp', ['ui.bootstrap',
     'ngAnimate',
     'ngCookies',
     'ngResource',
